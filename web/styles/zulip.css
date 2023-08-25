@@ -182,6 +182,13 @@ body {
     --color-message-action-interactive: hsl(216deg 43% 20% / 100%);
     --color-message-star-action: hsl(41deg 100% 47% / 100%);
 
+    /* Reaction container colors */
+    --color-message-reaction-border: hsl(194deg 37% 84%);
+    --color-message-reaction-border-reacted: hsl(193deg 38% 70%);
+    --color-message-reaction-border-hover: hsl(200deg 100% 40%);
+    --color-message-reaction-background: transparent;
+    --color-message-reaction-background-reacted: hsl(196deg 51% 93%);
+
     /* Message feed loading indicator colors */
     --color-zulip-logo: hsl(0deg 0% 0% / 34%);
     --color-zulip-logo-loading: hsl(0deg 0% 27%);
@@ -260,6 +267,13 @@ body {
     --color-icon-bot: hsl(180deg 5% 50% / 100%);
     --color-message-action-visible: hsl(217deg 41% 90% / 50%);
     --color-message-action-interactive: hsl(217deg 41% 90% / 100%);
+
+    /* Reaction container colors */
+    --color-message-reaction-border: hsl(0deg 0% 0% / 80%);
+    --color-message-reaction-border-reacted: hsl(0deg 0% 0% / 90%);
+    --color-message-reaction-border-hover: hsl(236deg 33% 90%);
+    --color-message-reaction-background: transparent;
+    --color-message-reaction-background-reacted: hsl(0deg 0% 0% / 50%);
 
     /* Message feed loading indicator colors */
     --color-zulip-logo: hsl(0deg 0% 100% / 50%);
