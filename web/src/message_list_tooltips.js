@@ -105,6 +105,7 @@ export function initialize() {
     // message reaction tooltip showing who reacted.
     let observer;
     message_list_tooltip(".message_reaction, .message_reactions .reaction_button", {
+        delay: LONG_HOVER_DELAY,
         placement: "bottom",
         onShow(instance) {
             if (!document.body.contains(instance.reference)) {
